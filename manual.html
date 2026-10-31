@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Better Bikes — Full Repair Manual</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="repairs.js" defer></script>
+  <script src="manual.js" defer></script>
+</head>
+<body class="manual-page">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html"><span>Better <strong>Bikes</strong></span></a>
+      <a class="button button-primary" href="#" onclick="window.print(); return false;">Print / Save as PDF</a>
+    </div>
+  </header>
+  <main class="page-width">
+    <section class="manual-cover">
+      <p class="eyebrow">Public bicycle repair resource</p>
+      <h1>Better Bikes<br>Full Repair Manual</h1>
+      <p>Print-friendly repair guidance and safety information for visitors to the public station.</p>
+      <div class="disclaimer"><strong>Safety first:</strong> This manual cannot guarantee that any bicycle or repair is safe. Follow manufacturer instructions. Do not ride if brakes, steering, wheel attachment, frame, fork, or drivetrain may be unsafe. Consult a qualified mechanic when uncertain.</div>
+    </section>
+    <section class="manual-tools">
+      <h2>Station tool inventory</h2>
+      <div id="manual-tools-grid" class="tool-grid"></div>
+      <p class="inventory-caveat"><strong>Not confirmed as supplied:</strong> tubes, patches, adhesive, chain lubricant, replacement chains or links, chain tools, quick-link pliers, brake pads, cables, housing, torque wrenches, or specialized disc-brake tools. The separate pump’s head and gauge features must be physically verified.</p>
+    </section>
+    <section class="manual-guides" id="manual-guides"><h2>Repair guides</h2><div id="manual-content"></div></section>
+  </main>
+</body>
+</html>
